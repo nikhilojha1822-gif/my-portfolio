@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background:#101827;
+    color: white;
+
+
+}
+ header{
+background: #2e4a64;
+padding: 20px 7%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+}
+header h2{
+    color: #00d9ff;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+nav a :hover{
+    color: #00d9ff;
+
+}
+section{
+    padding: 50px 10%;
+    min-height: 250px;
+}
+#home{
+min-height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+#home h1{
+    font-size: 50px;
+    color: #00d9ff;
+    margin: 15px 0;
+
+}
+section h2{
+    color: #00d9ff;
+    margin-bottom: 25px;
+
+}
+section p{
+    line-height: 1.8;
+    color: #ccc;
+
+}
+.btn{
+    display: inline-block;
+    background: #00d9ff;
+    color: #101820;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.skills span
+{
+    background: #192734;
+    padding: 15px 25px;
+    border: 1px solid#00d9ff;
+    border-radius: 8px;
+
+}
+.card
+{
+    background: #192734;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.card h3{
+    color: #00d9ff;
+    margin-bottom: 10px;
+}
+form input,
+form textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+}
+form textarea{
+    min-height: 120px;
+}
+footer{
+       text-align: center;
+       background:#192734 ;
+       padding: 25px;
+
+}
+body.light{
+    background: #f4f4f4;
+    color: #222;
+
+}
+body.light header,
+body.light .card,
+body.light .skills span,
+body.light footer {
+    background: white;
+}
+body.light nav a{
+    color: #222;
+}
+body.light section p{
+    color: #444;
+}
+ @media (max-width:768px)
+{
+    header{
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    #home h1{
+        font-size: 35px;
+    }
+}
