@@ -69,22 +69,28 @@ section p{
     text-decoration: none;
     cursor: pointer;
     margin-top: 20px;
-
 }
-.skills{
+.skills ul{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-
+    padding-left: 25px;
+    margin-left: 20px;
+    list-style: none;
+}
+.skills li{
+    list-style: none;
 }
 .skills span
 {
+    display: inline-block;
     background: #192734;
-    padding: 15px 25px;
+    padding: 25px 25px;
     border: 1px solid#00d9ff;
     border-radius: 8px;
 
 }
+
 .card
 {
     background: #192734;
