@@ -33,8 +33,10 @@ nav a :hover{
 
 }
 section{
-    padding: 50px 10%;
-    min-height: 250px;
+    padding: 40px 10%;
+    min-height: 200px;
+    scroll-margin-top: 80px;
+    
 }
 #home{
 min-height: 80vh;
@@ -90,6 +92,20 @@ section p{
     border-radius: 8px;
 
 }
+.skills-box ul{
+    margin-left: 40px;
+    padding-left: 20px;
+}
+ul{
+    position: relative !important;
+    left: 0px !important;
+    padding-left: 20px !important;
+
+}
+ul li{
+    margin-bottom: 25px;
+}
+
 
 .card
 {
